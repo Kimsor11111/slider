@@ -142,7 +142,7 @@ slider.addEventListener("mousemove", (e) => {
    e.preventDefault();
    cards.style.left = `${e.offsetX - cursorX}px`;
 });
-window.addEventListener("mouseup", () => {
+slider.addEventListener("mouseup", () => {
     isPressed = false;
 });
 function boundSlides() {
